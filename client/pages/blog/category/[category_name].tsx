@@ -30,7 +30,7 @@ const CategoryPage = ({ posts, category }: Props) => {
 
   return (
     <Layout title={`Foodie | ${capitalize(category)}`}>
-      <MainContainer>
+      <MainContainer categories={[category]}>
         <Title color="#4a5156" size="h2" weight={300} transform="uppercase" sx={{ letterSpacing: "1px" }}>
           {category}
         </Title>
