@@ -11,6 +11,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Data>)
   let posts: Post[] = [];
 
   if (process.env.NODE_ENV === "production") {
+    posts = require("../../cache/data").posts;
   } else {
     const files = fs.readdirSync(path.join("posts"));
     posts = files.map((filename) => {
