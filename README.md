@@ -1,4 +1,4 @@
-<p align="center"><img src="client/public/static/assets/logo.svg" width="150" height="150"></p>
+<p align="center"><img src="client/public/static/assets/logo.svg" width="450" height="150"></p>
 
 ## About Foodie
 
