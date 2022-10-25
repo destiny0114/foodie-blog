@@ -27,7 +27,7 @@ export default function TopPost({ post }: Props) {
       <Badge
         component="a"
         href={`/blog/category/${slugify(post.formatter.category)}`}
-        sx={{ backgroundColor: "#ffe7e7", color: "#e69122", cursor: "pointer" }}
+        sx={{ backgroundColor: "#ffe7e7", color: "#ff7c7c", cursor: "pointer" }}
       >
         {post.formatter.category}
       </Badge>
